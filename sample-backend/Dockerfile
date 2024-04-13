@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:12
 
 WORKDIR /usr/src/app
 
@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 8070
 
-CMD [ "node" , "server.js" ]
+CMD [ "node", "server.js" ]
